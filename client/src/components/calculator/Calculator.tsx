@@ -48,7 +48,7 @@ export default function Calculator() {
     >
       {/* App Header */}
       <div className="text-center mb-6">
-        <h1 className="text-2xl font-bold text-slate-800 mb-1">Glass Calculator</h1>
+        <h1 className="text-2xl font-bold text-slate-800 mb-1">Math Calculator</h1>
         <p className="text-sm text-slate-600">Modern • Simple • Beautiful</p>
       </div>
 
