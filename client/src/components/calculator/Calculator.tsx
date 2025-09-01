@@ -209,6 +209,7 @@ export default function Calculator() {
       {/* App Info Footer */}
       <div className="text-center mt-6 pt-4 border-t border-white/20">
         <p className="text-xs text-slate-500">Version 1.0 • Made for Android</p>
+        <p className="text-xs text-slate-400 mt-1">Produced by ZIQ Pro</p>
         <div className="flex justify-center space-x-4 mt-2">
           <span className="text-xs text-slate-400">PWA Ready</span>
           <span className="text-xs text-slate-400">•</span>
