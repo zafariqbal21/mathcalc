@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 
-interface CalculatorButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface CalculatorButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'onAnimationStart' | 'onAnimationEnd'> {
   variant?: 'number' | 'operator' | 'equals' | 'clear';
   children: React.ReactNode;
 }
