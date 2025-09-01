@@ -2,9 +2,12 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { ButtonHTMLAttributes, forwardRef } from "react";
 
-interface CalculatorButtonProps extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, 'onAnimationStart' | 'onAnimationEnd'> {
+interface CalculatorButtonProps {
   variant?: 'number' | 'operator' | 'equals' | 'clear';
   children: React.ReactNode;
+  className?: string;
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  'data-testid'?: string;
 }
 
 const CalculatorButton = forwardRef<HTMLButtonElement, CalculatorButtonProps>(
