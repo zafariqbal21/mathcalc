@@ -1,0 +1,47 @@
+[20:43:07.051] Running build in Washington, D.C., USA (East) – iad1
+[20:43:07.052] Build machine configuration: 2 cores, 8 GB
+[20:43:07.103] Cloning github.com/zafariqbal21/mathcalc (Branch: replit-agent, Commit: 1858525)
+[20:43:07.111] Skipping build cache, deployment was triggered without cache.
+[20:43:07.367] Cloning completed: 264.000ms
+[20:43:07.640] Running "vercel build"
+[20:43:08.028] Vercel CLI 46.1.1
+[20:43:08.619] Installing dependencies...
+[20:43:13.088] npm warn deprecated @esbuild-kit/esm-loader@2.6.5: Merged into tsx: https://tsx.is
+[20:43:13.106] npm warn deprecated @esbuild-kit/core-utils@3.3.2: Merged into tsx: https://tsx.is
+[20:43:17.693] 
+[20:43:17.694] added 482 packages in 9s
+[20:43:17.694] 
+[20:43:17.695] 65 packages are looking for funding
+[20:43:17.695]   run `npm fund` for details
+[20:43:19.558] 
+[20:43:19.558] up to date, audited 483 packages in 2s
+[20:43:19.559] 
+[20:43:19.559] 65 packages are looking for funding
+[20:43:19.559]   run `npm fund` for details
+[20:43:19.591] 
+[20:43:19.592] 11 vulnerabilities (3 low, 8 moderate)
+[20:43:19.592] 
+[20:43:19.592] To address issues that do not require attention, run:
+[20:43:19.593]   npm audit fix
+[20:43:19.593] 
+[20:43:19.593] To address all issues (including breaking changes), run:
+[20:43:19.593]   npm audit fix --force
+[20:43:19.593] 
+[20:43:19.593] Run `npm audit` for details.
+[20:43:20.137] [36mvite v5.4.19 [32mbuilding for production...[36m[39m
+[20:43:20.218] transforming...
+[20:43:20.257] [32m✓[39m 4 modules transformed.
+[20:43:20.262] [31mx[39m Build failed in 74ms
+[20:43:20.263] [31merror during build:
+[20:43:20.263] [31m[vite]: Rollup failed to resolve import "@/components/ui/toaster" from "/vercel/path0/client/src/App.tsx".
+[20:43:20.263] This is most likely unintended because it can break your application at runtime.
+[20:43:20.263] If you do want to externalize this module explicitly add it to
+[20:43:20.263] `build.rollupOptions.external`[31m
+[20:43:20.264]     at viteWarn (file:///vercel/path0/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65839:17)
+[20:43:20.264]     at onRollupWarning (file:///vercel/path0/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65871:5)
+[20:43:20.264]     at onwarn (file:///vercel/path0/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:65534:7)
+[20:43:20.264]     at file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:19452:13
+[20:43:20.264]     at Object.logger [as onLog] (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:21178:9)
+[20:43:20.265]     at ModuleLoader.handleInvalidResolvedId (file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:20067:26)
+[20:43:20.265]     at file:///vercel/path0/node_modules/rollup/dist/es/shared/node-entry.js:20025:26[39m
+[20:43:20.278] Error: Command "cd client && npm install && npx vite build" exited with 1
